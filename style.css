@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(100deg, hsl(212, 76%, 66%), #a0a3dedc);
+    font-family: Arial, sans-serif;
+    color: azure;
+}
+.image{
+   filter: drop-shadow(10px 10px 7px rgb(244, 186, 93));
+   width:900px;
+   height:400px
+}
+ section h1 {
+    font-size: 70px;
+    color: transparent;
+    letter-spacing: 20px;
+    margin-left: 92px;
+    margin-top: 2px;
+    -webkit-background-clip: text;
+    background-image: url('/xampp/htdocs/text.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+main{
+    padding: 10px;
+    max-width: 1300px;
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(220, 216, 216, 0.949);
+    
+}
+.col{
+    width:650px;
+    text-align:justify;
+}
+.row{
+    margin-top: 500px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 17px;
+}
+li{
+    font-size: 17px;
+}
+.kc1{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.kc2{
+    margin-top: 90px;
+    margin-right: 60px;
+}
+.kc3{
+    margin-left: 60px;
+}
